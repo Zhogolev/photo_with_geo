@@ -1,0 +1,29 @@
+name: photo_with_geo
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geo_location:
+    path: ./geo_location
+  flutter_exif_plugin:
+    git: https://github.com/Zhogolev/flutter_exif_fixed
+  flutter_map: 0.11.0
+  latlong: 0.6.1
+  location_permissions: ^3.0.0
+  camera: ^0.7.0+1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
