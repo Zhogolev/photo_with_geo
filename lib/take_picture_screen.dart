@@ -110,7 +110,7 @@ class DisplayPictureScreen extends StatelessWidget {
                         snapshot.data.toString(),
                         style: TextStyle(color: Colors.black),
                       )
-                    : null),
+                    : Container()),
           )
         ]));
   }
